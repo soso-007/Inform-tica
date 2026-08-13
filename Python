@@ -1,0 +1,3 @@
+nome= input ("Qual seu nome?")
+cidade= input ("Qual sua cidade?")
+print ((nome),("seja bem vindo a"), (cidade)) 
