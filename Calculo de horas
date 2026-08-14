@@ -1,0 +1,9 @@
+--CALCULA DIFERENÇA EM HORAS
+select  ((sysdate -5.533 - sysdate) * 24)
+from dual;
+--CALCULA DIFERENÇA EM MINUTOS
+select  (((sysdate -5.533 - sysdate) * 24 * 60),60)
+from dual;
+--CALCULA DIFERENÇA EM SEGUNDOS
+select  (((sysdate -5.533 - sysdate) * 24 * 60 * 60),60)
+from dual;
